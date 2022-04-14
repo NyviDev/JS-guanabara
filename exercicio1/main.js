@@ -2,8 +2,8 @@ function carregar() {
     let mensagem = document.getElementById('mensagem')
     let imagem = document.getElementById('imagem')
     let data = new Date()
-    //let hora = data.getHours()
-    let hora = 8
+    let hora = data.getHours()
+   
     
     mensagem.innerHTML = `Agora são ${hora} horas`
 
